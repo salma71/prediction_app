@@ -9,15 +9,31 @@ Collecting scikit-learn<0.23.0,>=0.22.1
   Using cached scikit_learn-0.22.2.post1-cp38-cp38-macosx_10_9_x86_64.whl (7.2 MB)
 Collecting joblib<0.15.0,>=0.14.1
   Using cached joblib-0.14.1-py2.py3-none-any.whl (294 kB)
-Collecting python-dateutil>=2.6.1
-  Using cached python_dateutil-2.8.1-py2.py3-none-any.whl (227 kB)
+Collecting pytest<6.0.0,>=5.3.2
+  Using cached pytest-5.4.3-py3-none-any.whl (248 kB)
 Collecting pytz>=2017.2
   Using cached pytz-2020.1-py2.py3-none-any.whl (510 kB)
+Collecting python-dateutil>=2.6.1
+  Using cached python_dateutil-2.8.1-py2.py3-none-any.whl (227 kB)
 Collecting scipy>=0.17.0
   Using cached scipy-1.5.2-cp38-cp38-macosx_10_9_x86_64.whl (28.9 MB)
+Collecting pluggy<1.0,>=0.12
+  Using cached pluggy-0.13.1-py2.py3-none-any.whl (18 kB)
+Collecting attrs>=17.4.0
+  Using cached attrs-20.2.0-py2.py3-none-any.whl (48 kB)
+Collecting packaging
+  Using cached packaging-20.4-py2.py3-none-any.whl (37 kB)
+Collecting more-itertools>=4.0.0
+  Using cached more_itertools-8.5.0-py3-none-any.whl (44 kB)
+Collecting wcwidth
+  Using cached wcwidth-0.2.5-py2.py3-none-any.whl (30 kB)
+Collecting py>=1.5.0
+  Using cached py-1.9.0-py2.py3-none-any.whl (99 kB)
 Collecting six>=1.5
   Using cached six-1.15.0-py2.py3-none-any.whl (10 kB)
-Installing collected packages: numpy, six, python-dateutil, pytz, pandas, scipy, joblib, scikit-learn
-Successfully installed joblib-0.14.1 numpy-1.18.5 pandas-0.25.3 python-dateutil-2.8.1 pytz-2020.1 scikit-learn-0.22.2.post1 scipy-1.5.2 six-1.15.0
+Collecting pyparsing>=2.0.2
+  Using cached pyparsing-2.4.7-py2.py3-none-any.whl (67 kB)
+Installing collected packages: numpy, pytz, six, python-dateutil, pandas, scipy, joblib, scikit-learn, pluggy, attrs, pyparsing, packaging, more-itertools, wcwidth, py, pytest
+Successfully installed attrs-20.2.0 joblib-0.14.1 more-itertools-8.5.0 numpy-1.18.5 packaging-20.4 pandas-0.25.3 pluggy-0.13.1 py-1.9.0 pyparsing-2.4.7 pytest-5.4.3 python-dateutil-2.8.1 pytz-2020.1 scikit-learn-0.22.2.post1 scipy-1.5.2 six-1.15.0 wcwidth-0.2.5
 WARNING: You are using pip version 20.0.2; however, version 20.2.3 is available.
 You should consider upgrading via the '/Users/salmaelshahawy/Desktop/prediction_app/packages/regression_model/.tox/regression_model/bin/python -m pip install --upgrade pip' command.
