@@ -1,0 +1,7 @@
+action: install_locally, msg: getenv
+cwd: /Users/salmaelshahawy/Desktop/prediction_app/packages/regression_model/.tox
+cmd: /Users/salmaelshahawy/Desktop/prediction_app/dev/bin/python -m virtualenv --no-download --python /Users/salmaelshahawy/Desktop/prediction_app/dev/bin/python install_locally
+created virtual environment CPython3.8.1.final.0-64 in 811ms
+  creator CPython3Posix(dest=/Users/salmaelshahawy/Desktop/prediction_app/packages/regression_model/.tox/install_locally, clear=False, global=False)
+  seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, via=copy, app_data_dir=/Users/salmaelshahawy/Library/Application Support/virtualenv/seed-app-data/v1.0.1)
+  activators BashActivator,CShellActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator
