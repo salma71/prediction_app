@@ -1,0 +1,6 @@
+#api
+flask==1.0.2
+
+#local regression_model
+-e "/Users/salmaelshahawy/Desktop/prediction_app/packages/regression_model"
+
