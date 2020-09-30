@@ -3,6 +3,7 @@ from regression_model.predict import make_prediction
 from regression_model import __version__ as _version
 
 from api.config import get_logger
+from api.validation import validate_inputs
 from api import __version__ as api_version
 
 _logger = get_logger(logger_name=__name__)
