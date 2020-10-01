@@ -8,4 +8,4 @@ flask==1.0.2
 # -e "/Users/salmaelshahawy/Desktop/prediction_app/packages/regression_model"
 
 # install from gemfury
-regression-model==0.1.0
+regression_model==0.1.0
