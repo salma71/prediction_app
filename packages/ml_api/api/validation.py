@@ -1,7 +1,5 @@
-
 from marshmallow import Schema, fields
 from marshmallow import ValidationError
-
 
 import typing as t
 import json

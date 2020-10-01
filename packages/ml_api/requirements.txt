@@ -1,9 +1,9 @@
-# --extra-index-url=${PIP_EXTRA_INDEX_URL}
+--extra-index-url=${PIP_EXTRA_INDEX_URL}
 
 #api
 flask==1.0.2
 
-marshmallow==3.8.0
+# marshmallow==2.17.0
 #local regression_model
 # -e "/Users/salmaelshahawy/Desktop/prediction_app/packages/regression_model"
 
