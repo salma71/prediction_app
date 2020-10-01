@@ -1,7 +1,11 @@
+--extra-index-url=${PIP_EXTRA_INDEX_URL}
+
 #api
 flask==1.0.2
 
 marshmallow==3.8.0
 #local regression_model
--e "/Users/salmaelshahawy/Desktop/prediction_app/packages/regression_model"
+# -e "/Users/salmaelshahawy/Desktop/prediction_app/packages/regression_model"
 
+# install from gemfury
+regression-model==0.1.0
