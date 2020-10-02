@@ -105,7 +105,7 @@ jobs:
           name: Deploy to Heroku
           command: |
             git push https://heroku:$HEROKU_API_KEY@git.heroku.com/$HEROKU_APP_NAME.git master
-            echo$HEROKU_APP_NAME
+            echo${HEROKU_APP_NAME}
   section_11_build_and_push_to_heroku_docker:
     <<: *defaults
     steps:
@@ -125,7 +125,7 @@ jobs:
           name: Release to Heroku
           command: |
             heroku container:release web --app $HEROKU_APP_NAME
-            echo $HEROKU_APP_NAME
+            echo ${HEROKU_APP_NAME}
 workflows:
   version: 2
   test-all:
