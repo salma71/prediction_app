@@ -1,4 +1,5 @@
 NAME=regpackage
+HEROKU_APP_NAME=regpackage
 COMMIT_ID=$(shell git rev-parse HEAD)
 
 
