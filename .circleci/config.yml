@@ -81,22 +81,6 @@ jobs:
             . venv/bin/activate
             chmod +x ./scripts/publish_model.sh
             ./scripts/publish_model.sh ./packages/regression_model/
-  section_9_differential_tests:
-    <<: *defaults
-    steps:
-      - checkout
-      - *prepare_venv
-      - run:
-          name: Capturing previous model predictions
-          command: |
-            . venv/bin/activate
-            pip install -r packages/ml_api/diff_test_requirements.txt
-            PYTHONPATH=./packages/ml_api python3 packages/ml_api/tests/capture_model_predictions.py
-      - run:
-          name: Runnning differential tests
-          command: |
-            . venv/bin/activate
-            pip install -r packages/ml_api/requirements.txt
   section_10_deploy_to_heroku:
     <<: *defaults
     steps:
@@ -111,12 +95,10 @@ workflows:
     jobs:
       - test_regression_model
       - test_ml_api
-      - section_9_differential_tests
       - train_and_upload_regression_model:
           requires:
             - test_regression_model
             - test_ml_api
-            - section_9_differential_tests
           filters:
             branches:
               only:
