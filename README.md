@@ -1,6 +1,8 @@
 # Machine learning prediction application
 ![CircleCI](https://img.shields.io/circleci/build/github/salma71/prediction_app?token=781e1233134910ffefc006ea82a7fe966b5277f2)
 
+![CircleCI](https://circleci.com/github/salma71/prediction_app.svg?style=shield&circle-token=781e1233134910ffefc006ea82a7fe966b5277f2)
+
 ![GitHub repo size](https://img.shields.io/github/repo-size/salma71/prediction_app?style=for-the-badge)
 ------
 
