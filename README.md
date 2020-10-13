@@ -1,6 +1,7 @@
 # Machine learning prediction application
 ![CircleCI](https://img.shields.io/circleci/build/github/salma71/prediction_app?token=781e1233134910ffefc006ea82a7fe966b5277f2)
 
+![GitHub repo size](https://img.shields.io/github/repo-size/salma71/prediction_app?style=for-the-badge)
 ------
 
 ## Steps of usage
@@ -46,9 +47,10 @@ I structured the scaffold based on the OOP which seperate concerns of code.
 ------
 
 ## Future work
-[] Build extra API end points 
-[] Build frontend interface using streamlit
-[] Complete unit tests.
+- [ ] Build extra API end points 
+- [ ] Build frontend interface using streamlit
+- [ ] Complete unit tests.
+- [ ] Create a configuration file for travis
 
 ------
 ## Contributing
