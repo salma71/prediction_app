@@ -1,9 +1,12 @@
 # Machine learning prediction application
-![CircleCI](https://img.shields.io/circleci/build/github/salma71/prediction_app?token=781e1233134910ffefc006ea82a7fe966b5277f2)
-
-![CircleCI](https://circleci.com/github/salma71/prediction_app.svg?style=shield&circle-token=781e1233134910ffefc006ea82a7fe966b5277f2)
+![CircleCI](https://img.shields.io/circleci/build/github/salma71/prediction_app?style=for-the-badge&token=781e1233134910ffefc006ea82a7fe966b5277f2)
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/salma71/prediction_app?style=for-the-badge)
+
+
+[![GitHub forks](https://img.shields.io/github/forks/salma71/prediction_app?style=for-the-badge)](https://github.com/salma71/prediction_app/network)
+
+[![GitHub forks](https://img.shields.io/github/stars/salma71/prediction_app?style=for-the-badge)](https://github.com/salma71/prediction_app/network)
 ------
 
 ## Steps of usage
