@@ -1,3 +1,7 @@
 {
     "python.linting.enabled": true,
+    "editor.columnSelection": true,
+    "terminal.integrated.automationShell.osx": "/bin/zsh",
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.fontFamily": "Monaco",
 }
