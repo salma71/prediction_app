@@ -25,6 +25,7 @@ The following kaggle notebooks includes the complete basic analyses and EDA
 - [Model Building](https://www.kaggle.com/salmaeng/model-building-medium-post-4)
 
 [Medium post part_1](https://towardsdatascience.com/exclusive-how-to-deploy-your-first-machine-learning-models-bf0a2109e522)
+[Medium post part_2](https://towardsdatascience.com/how-to-deploy-your-first-machine-learning-models-part-2-9e1d0fcfb68)
 
 [Scaffold template - starter template](https://github.com/salma71/ML_app_scaffold)
 
@@ -52,7 +53,7 @@ I structured the scaffold based on the OOP which seperate concerns of code.
 ------
 
 ## Future work
-- [ ] Build extra API end points 
+- [X] Build extra API end points 
 - [ ] Build frontend interface using streamlit
 - [ ] Complete unit tests.
 - [ ] Create a configuration file for travis
